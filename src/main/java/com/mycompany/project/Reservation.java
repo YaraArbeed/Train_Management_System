@@ -34,6 +34,7 @@ public class Reservation extends JFrame {
         t3.setText(t.getArrival_station());
         t4.setText(t.getNum_of_pass());
     
+        
        JPanel p=(JPanel)this.getContentPane();
        p.setLayout(new GridLayout(2,1));
        
