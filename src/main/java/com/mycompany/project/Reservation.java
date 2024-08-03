@@ -37,6 +37,7 @@ public class Reservation extends JFrame {
        JPanel p=(JPanel)this.getContentPane();
        p.setLayout(new GridLayout(2,1));
        
+       
        JPanel p1=new JPanel();
        p1.setLayout(new GridLayout(4,2));
        p1.add(l1);
