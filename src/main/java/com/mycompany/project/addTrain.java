@@ -18,6 +18,7 @@ public class addTrain extends JFrame {
  private JButton b1,b2;
     private JTextField t1,t2;
     private JComboBox c1,c2;
+    
     private JLabel l1,l2,l3,l4;
     
     public addTrain(String title){

@@ -7,5 +7,6 @@ package com.mycompany.project;
 public class null_f extends Exception{
     public null_f(String m) {
         super(m); 
+        
     }
 }

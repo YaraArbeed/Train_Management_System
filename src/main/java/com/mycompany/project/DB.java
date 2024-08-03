@@ -19,6 +19,7 @@ public class DB {
         ResultSet rs = st.executeQuery("select * from MyUsers where name = '" + log + "' and password ='" + pass + "' ;");
         if( rs.next()){
             String name = rs.getString(1);
+            
             String passw = rs.getString(2);
             int  admin= rs.getInt(3);
             return (admin==1) ? 1 : 2;

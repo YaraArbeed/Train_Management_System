@@ -19,6 +19,7 @@ public class Reservation extends JFrame {
         l1=new JLabel("train id");
         l2=new JLabel("departion station");
         l3=new JLabel("arrival station");
+        
         l4=new JLabel("max passengers");
         
         t1=new JTextField(10);

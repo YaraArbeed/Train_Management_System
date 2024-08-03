@@ -25,6 +25,7 @@ public class searchTrain extends JFrame {
         l1=new JLabel("departion station");
         l2=new JLabel("arrival station");
         l3=new JLabel("number of passengers");
+        
         t1=new JTextField(10);
         String s1[]={"Buraydah","Uyon_Al-Jewa","Unizah","AL-Rass"};
         c1=new JComboBox(s1);

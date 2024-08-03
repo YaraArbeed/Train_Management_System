@@ -12,5 +12,6 @@ package com.mycompany.project;
 public class ID_er extends Exception{
     public ID_er(String m) {
         super(m); 
+        
     }
 }

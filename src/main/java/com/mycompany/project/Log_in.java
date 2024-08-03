@@ -22,6 +22,7 @@ public class Log_in extends JFrame {
    
         b1=new JButton("Enter");
         b2=new JButton("cancel");
+        
         l1=new JLabel("Login");
         l2=new JLabel("password");
         t1=new JTextField(11);

@@ -19,6 +19,7 @@ public class Train implements Serializable {
         this.train_id = train_id;
         this.departion_station = departion_station;
         this.arrival_station = arrival_station;
+        
         this.num_of_pass = num_of_pass;
     }
 
